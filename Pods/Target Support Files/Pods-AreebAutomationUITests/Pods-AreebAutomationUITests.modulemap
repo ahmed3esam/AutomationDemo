@@ -1,0 +1,6 @@
+framework module Pods_AreebAutomationUITests {
+  umbrella header "Pods-AreebAutomationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

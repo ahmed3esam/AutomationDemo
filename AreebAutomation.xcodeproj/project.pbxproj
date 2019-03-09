@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B70AB9223D10632FED43708 /* Pods_AreebAutomationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1658B20AE18F64C56D990670 /* Pods_AreebAutomationTests.framework */; };
+		3D91E51BAAD9B95710DDD1B4 /* Pods_AreebAutomationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AAD2097E3556707855DCDB /* Pods_AreebAutomationUITests.framework */; };
 		7F57CF492233E86800C1D012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57CF482233E86800C1D012 /* AppDelegate.swift */; };
 		7F57CF4B2233E86800C1D012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57CF4A2233E86800C1D012 /* ViewController.swift */; };
 		7F57CF4E2233E86800C1D012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F57CF4C2233E86800C1D012 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		7F57CF532233E86B00C1D012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F57CF512233E86B00C1D012 /* LaunchScreen.storyboard */; };
 		7F57CF5E2233E86B00C1D012 /* AreebAutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57CF5D2233E86B00C1D012 /* AreebAutomationTests.swift */; };
 		7F57CF692233E86B00C1D012 /* AreebAutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57CF682233E86B00C1D012 /* AreebAutomationUITests.swift */; };
+		FAE33A56065292A2B1232C83 /* Pods_AreebAutomation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC3EB5E11511DD96E008A73 /* Pods_AreebAutomation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1658B20AE18F64C56D990670 /* Pods_AreebAutomationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreebAutomationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451B32206F95AAB11250362F /* Pods-AreebAutomationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebAutomationUITests.debug.xcconfig"; path = "Target Support Files/Pods-AreebAutomationUITests/Pods-AreebAutomationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56AAD2097E3556707855DCDB /* Pods_AreebAutomationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreebAutomationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F57CF452233E86800C1D012 /* AreebAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreebAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F57CF482233E86800C1D012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F57CF4A2233E86800C1D012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		7F57CF642233E86B00C1D012 /* AreebAutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreebAutomationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F57CF682233E86B00C1D012 /* AreebAutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreebAutomationUITests.swift; sourceTree = "<group>"; };
 		7F57CF6A2233E86B00C1D012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F0F3058DDF74AE14DAF1B8 /* Pods-AreebAutomationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebAutomationUITests.release.xcconfig"; path = "Target Support Files/Pods-AreebAutomationUITests/Pods-AreebAutomationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCC3EB5E11511DD96E008A73 /* Pods_AreebAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreebAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0047514CF253B8B7A34AD0 /* Pods-AreebAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebAutomation.release.xcconfig"; path = "Target Support Files/Pods-AreebAutomation/Pods-AreebAutomation.release.xcconfig"; sourceTree = "<group>"; };
+		E34F52E568A747EC22FAA344 /* Pods-AreebAutomationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebAutomationTests.release.xcconfig"; path = "Target Support Files/Pods-AreebAutomationTests/Pods-AreebAutomationTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3AFB938EA565257AB2E2227 /* Pods-AreebAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebAutomation.debug.xcconfig"; path = "Target Support Files/Pods-AreebAutomation/Pods-AreebAutomation.debug.xcconfig"; sourceTree = "<group>"; };
+		FA984E7D9983863C9EF51B50 /* Pods-AreebAutomationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreebAutomationTests.debug.xcconfig"; path = "Target Support Files/Pods-AreebAutomationTests/Pods-AreebAutomationTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE33A56065292A2B1232C83 /* Pods_AreebAutomation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B70AB9223D10632FED43708 /* Pods_AreebAutomationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D91E51BAAD9B95710DDD1B4 /* Pods_AreebAutomationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				7F57CF5C2233E86B00C1D012 /* AreebAutomationTests */,
 				7F57CF672233E86B00C1D012 /* AreebAutomationUITests */,
 				7F57CF462233E86800C1D012 /* Products */,
+				DE8C65A512566781847024D8 /* Pods */,
+				D650E074689D92407C0CDF63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = AreebAutomationUITests;
 			sourceTree = "<group>";
 		};
+		D650E074689D92407C0CDF63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3EB5E11511DD96E008A73 /* Pods_AreebAutomation.framework */,
+				1658B20AE18F64C56D990670 /* Pods_AreebAutomationTests.framework */,
+				56AAD2097E3556707855DCDB /* Pods_AreebAutomationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8C65A512566781847024D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3AFB938EA565257AB2E2227 /* Pods-AreebAutomation.debug.xcconfig */,
+				CC0047514CF253B8B7A34AD0 /* Pods-AreebAutomation.release.xcconfig */,
+				FA984E7D9983863C9EF51B50 /* Pods-AreebAutomationTests.debug.xcconfig */,
+				E34F52E568A747EC22FAA344 /* Pods-AreebAutomationTests.release.xcconfig */,
+				451B32206F95AAB11250362F /* Pods-AreebAutomationUITests.debug.xcconfig */,
+				B9F0F3058DDF74AE14DAF1B8 /* Pods-AreebAutomationUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F57CF6D2233E86B00C1D012 /* Build configuration list for PBXNativeTarget "AreebAutomation" */;
 			buildPhases = (
+				7F57CF762233EB1000C1D012 /* SwiftLint */,
+				2BBD0148B4973A9A2D1FEC4F /* [CP] Check Pods Manifest.lock */,
 				7F57CF412233E86800C1D012 /* Sources */,
 				7F57CF422233E86800C1D012 /* Frameworks */,
 				7F57CF432233E86800C1D012 /* Resources */,
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F57CF702233E86B00C1D012 /* Build configuration list for PBXNativeTarget "AreebAutomationTests" */;
 			buildPhases = (
+				6212DA1324ECE23A1CA19F64 /* [CP] Check Pods Manifest.lock */,
 				7F57CF552233E86B00C1D012 /* Sources */,
 				7F57CF562233E86B00C1D012 /* Frameworks */,
 				7F57CF572233E86B00C1D012 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F57CF732233E86B00C1D012 /* Build configuration list for PBXNativeTarget "AreebAutomationUITests" */;
 			buildPhases = (
+				D3F0CCBB5FCA3EB378E750F1 /* [CP] Check Pods Manifest.lock */,
 				7F57CF602233E86B00C1D012 /* Sources */,
 				7F57CF612233E86B00C1D012 /* Frameworks */,
 				7F57CF622233E86B00C1D012 /* Resources */,
@@ -250,6 +294,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BBD0148B4973A9A2D1FEC4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreebAutomation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6212DA1324ECE23A1CA19F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreebAutomationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F57CF762233EB1000C1D012 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\" autocorrect\n";
+		};
+		D3F0CCBB5FCA3EB378E750F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreebAutomationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F57CF412233E86800C1D012 /* Sources */ = {
@@ -430,6 +561,7 @@
 		};
 		7F57CF6E2233E86B00C1D012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AFB938EA565257AB2E2227 /* Pods-AreebAutomation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +580,7 @@
 		};
 		7F57CF6F2233E86B00C1D012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0047514CF253B8B7A34AD0 /* Pods-AreebAutomation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +599,7 @@
 		};
 		7F57CF712233E86B00C1D012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA984E7D9983863C9EF51B50 /* Pods-AreebAutomationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +621,7 @@
 		};
 		7F57CF722233E86B00C1D012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34F52E568A747EC22FAA344 /* Pods-AreebAutomationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +643,7 @@
 		};
 		7F57CF742233E86B00C1D012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451B32206F95AAB11250362F /* Pods-AreebAutomationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +664,7 @@
 		};
 		7F57CF752233E86B00C1D012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F0F3058DDF74AE14DAF1B8 /* Pods-AreebAutomationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
